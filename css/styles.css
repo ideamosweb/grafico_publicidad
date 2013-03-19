@@ -11,7 +11,7 @@ a{
 
 #wrapper{
 	width: 980px;
-	margin: 0 auto;	
+	margin: 0 auto 80px auto;	
 }
 
 #header{
@@ -103,14 +103,113 @@ a{
 
 #content_slide{
 	width: 980px;
-	height: 491px;
+	height: 490px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide{
+	display: none;	
+	position: absolute;
+	width: 980px;
+	height: 490px;
+	left: 0;
+}
+
+.slide_img1{
+	background: url("../image/1.jpg");
+}
+
+.slide_img2{
+	background: url("../image/2.jpg");
+}
+
+.slide_img3{
+	background: url("../image/3.jpg");
+}
+
+.slide_img4{
+	background: url("../image/4.jpg");
+}
+
+.slide_img5{
+	background: url("../image/5.jpg");
+}
+
+.slide_img6{
+	background: url("../image/6.jpg");
+}
+
+.text_slide{
+	background: rgba(248, 237, 212, 0.89);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 980px;
+	height: 67px;
+	display: none;
+	overflow: hidden;
+}
+
+.content_text_slide{
+	overflow: hidden;
+	width: 750px;
+	float: left;
+}
+
+.content_text_slide h1{
+	font-size: 27px;
+	font-weight: bold;
+	float: left;
+	padding: 20px;
+	width: 214px;
+	margin: 0px 0 0;
+}
+
+.content_text_slide p{
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+	padding: 5px;
+	width: 455px;
+	margin: 10px 0 0;
+	line-height: 20px;
+}
+
+.content_control{
+	float: right;
+	width: 200px;
+	padding: 23px 0;
+}
+
+.content_control ul{
+	margin: 0;
+	padding: 0;
+}
+
+.content_control ul li{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin: 0 10px 0 0;
+}
+
+.content_control ul li a{
+	display: inline-block;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
 }
 
 /**** CONTENT ****/
 
 #content{
+	background: #838383;
 	width: 970px;
-	height: 647px;		
+	padding: 0 10px 0 0;
+	/*height: 647px;*/
 }
 
 #wrapper_column{
