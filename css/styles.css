@@ -1,12 +1,17 @@
 body{
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 14px;
+	color: #4A4B46;
+	background: url("../image/background_body.png") center bottom repeat-x #FFF;	
+}
+
+a{
+	text-decoration: none;
 }
 
 #wrapper{
 	width: 980px;
-	margin: 0 auto;
-	background: #838383;
+	margin: 0 auto;	
 }
 
 #header{
@@ -20,12 +25,17 @@ body{
 	height: 141px;
 }
 
+.logo{
+	margin: 0 0 0 10px;
+}
+
 /**** MENU ****/
 
 #main_menu{
 	width: 978px;
 	height: 63px;	
 	border: 1px solid #838383;
+	background: #838383;
 }
 
 .first_tab:hover{
@@ -50,8 +60,7 @@ body{
 	color: #FFF;
 	font-size: 20px;
 	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
+	text-align: center;	
 }
 
 .first_tab{
@@ -100,17 +109,18 @@ body{
 /**** CONTENT ****/
 
 #content{
-	width: 980px;
-	height: 647px;
-	padding: 10px;
+	width: 970px;
+	height: 647px;		
 }
 
 #wrapper_column{
 	overflow: hidden;
+	background: #838383;
+	padding: 10px 0 30px 10px;
 }
 
 #column1{
-	width: 504;
+	width: 572px;
 	float: left;	
 }
 
@@ -121,6 +131,7 @@ body{
 
 .box_quienes{
 	width: 572px;
+	background: #FFF;
 }
 
 .box_quienes h1{
@@ -129,9 +140,47 @@ body{
 	font-weight: bold;
 	background: #5B5B5B;
 	padding: 10px;
+	margin: 0 0 20px 0;
 }
 
-.box_quienes p{
-	background: #FFF;
+.box_quienes p{	
+	margin: 0px 0 0;
+	padding: 0px 20px 20px 20px;
+	line-height: 18px;
+	text-align: justify;	
+}
+
+.logo_footer{
+	margin: 20px 0 0;
+}
+
+.social_networks{
+	width: 306px;
+	height: 264px;
+	background: url("../image/fondo_social.png") 0 0 no-repeat;
 	padding: 20px;
+	margin: 0 0 0 11px;
+}
+
+.social_networks h2{	
+	font-size: 20px;
+	font-weight: bold;
+	color: #B7B7B7;
+	padding: 5px 5px 5px 30px;
+	background: url("../image/flecha-redsocial.png") 0 3px no-repeat;
+}
+
+.link_network{
+	overflow: hidden;
+	margin: 15px 0 0;
+}
+
+.link_network img{	
+	vertical-align: middle;
+}
+
+.link_network a{
+	color:  #4A4B46;
+	font-size: 16px;
+	font-weight: bold;	
 } 
