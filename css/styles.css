@@ -11,7 +11,7 @@ a{
 
 #wrapper{
 	width: 980px;
-	margin: 0 auto;	
+	margin: 0 auto 80px auto;	
 }
 
 #header{
@@ -104,13 +104,51 @@ a{
 #content_slide{
 	width: 980px;
 	height: 491px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide{
+	display: none;	
+	position: absolute;
+	width: 980px;
+	height: 490px;
+	left: 0;
+}
+
+.slide_img1{
+	background: url("../image/1.jpg");
+}
+
+.slide_img2{
+	background: url("../image/2.jpg");
+}
+
+.slide_img3{
+	background: url("../image/3.jpg");
+}
+
+.slide_img4{
+	background: url("../image/4.jpg");
+}
+
+.slide_img5{
+	background: url("../image/5.jpg");
+}
+
+.slide_img6{
+	background: url("../image/6.jpg");
+}
+
+.text_slide{
+	background: #CCC;
 }
 
 /**** CONTENT ****/
 
 #content{
 	width: 970px;
-	height: 647px;		
+	/*height: 647px;*/
 }
 
 #wrapper_column{
