@@ -25,7 +25,6 @@ function nextSlider(id_sd) {
 	img_control_all.attr('src', 'image/control-slide.png');
 	var img_control = text_slide.children().siblings(".content_control").children().children().eq((count - 1)).children().children();
 	img_control.attr('src', 'image/control-slideA.png');	
-	//alert(img_control.attr('src'))
 	$('.text_slide').css('display', 'none');
  
 	if(slider.html() == undefined || slider.html() == null) {
