@@ -674,3 +674,156 @@ Request URL: /grafico_publicidad/css/default.css
 Stack Trace:
 #0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-03-20 05:03:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:15:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:15:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/js/jquery.cicle.all.js
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:19:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:19:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/js/jquery.cicle.all.js
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:19:50 Error: [MissingControllerException] Controller class GraficoPublicidadController could not be found.
+Exception Attributes: array (
+  'class' => 'GraficoPublicidadController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/grafico_publicidad/img/tarjeteria_social.png
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:19:50 Error: [MissingControllerException] Controller class GraficoPublicidadController could not be found.
+Exception Attributes: array (
+  'class' => 'GraficoPublicidadController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/grafico_publicidad/img/impresion_digital.png
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:19:50 Error: [MissingControllerException] Controller class GraficoPublicidadController could not be found.
+Exception Attributes: array (
+  'class' => 'GraficoPublicidadController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/grafico_publicidad/img/litografia_papeleria.png
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:20:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/js/jquery.cicle.all.js
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:20:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:32:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:32:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/js/jquery.cicle.all.js
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:34:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:36:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:38:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:41:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-20 05:43:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /grafico_publicidad/css/default.css
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

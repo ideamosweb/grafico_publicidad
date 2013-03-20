@@ -19,6 +19,18 @@ h1{
 	color: #FFF;
 }
 
+.overflow{
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
 .align_center{
 	text-align: center;
 }
@@ -162,7 +174,7 @@ h1{
 }
 
 .text_slide{
-	background: rgba(248, 237, 212, 0.89);
+	background: rgba(255, 255, 255, 0.81);
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -394,5 +406,22 @@ h1{
 
 .pub_aerea:hover{
 	background: url("../img/publicidad_aereaT.png");
+}
+
+/**** CICLE PLUGIN ****/
+
+.slideshow {  
+    width:  290px;  
+    height:   219px;  
+    padding: 0;  
+    margin:  0 0 0 40px;  
+}
+
+.slideshow img {        
+    background-color: #eee;  
+    width:  290px; 
+    height: 219px; 
+    top:  0; 
+    left: 0 
 }
  
