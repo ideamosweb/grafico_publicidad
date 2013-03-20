@@ -1,7 +1,5 @@
-<div id="banner_top">
-	<div class="logo">
-		<img src="img/logo.png" />
-	</div>		
+<div id="banner_top">	
+	<object width="980" height="141" data="/grafico_publicidad/img/animacion_banner.swf"></object>		
 </div>
 <div id="main_menu">
 	<ul id="tabs">

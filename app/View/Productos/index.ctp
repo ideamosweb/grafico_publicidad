@@ -16,18 +16,18 @@
 
 <table class="product_table" cellpadding="10px" cellspacing="20px">
 	<tr>
-		<td><?php echo $this->Html->link($this->Html->image('litografia_papeleria.png', array('alt' => 'Litografia papeleria')), array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'lito_pap')); ?></td>
-		<td><?php echo $this->Html->link($this->Html->image('tarjeteria_social.png', array('alt' => 'Tarjeteria social')), array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'tarj_social')); ?></td>
-		<td><?php echo $this->Html->link($this->Html->image('impresion_digital.png', array('alt' => 'Impresion digital')), array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'imp_digi')); ?></td>
+		<td><?php echo $this->Html->link('', array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'lito_pap pr_imgs')); ?></td>
+		<td><?php echo $this->Html->link('', array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'tarj_social pr_imgs')); ?></td>
+		<td><?php echo $this->Html->link('', array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'imp_digi pr_imgs')); ?></td>
 	</tr>
 	<tr>
-		<td><?php echo $this->Html->link($this->Html->image('senalizacion.png', array('alt' => 'Senalizacion')), array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'sena')); ?></td>
-		<td><?php echo $this->Html->link($this->Html->image('pop.png', array('alt' => 'POP')), array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'pop')); ?></td>
-		<td><?php echo $this->Html->link($this->Html->image('diseno_web.png', array('alt' => 'Diseno web')), array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'dis_web')); ?></td>
+		<td><?php echo $this->Html->link('', array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'sena pr_imgs')); ?></td>
+		<td><?php echo $this->Html->link('', array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'pop pr_imgs')); ?></td>
+		<td><?php echo $this->Html->link('', array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'dis_web pr_imgs')); ?></td>
 	</tr>
 	<tr>
-		<td><?php echo $this->Html->link($this->Html->image('diseno_corporativa.png', array('alt' => 'Diseno corporativa')), array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'dis_corp')); ?></td>
-		<td><?php echo $this->Html->link($this->Html->image('publicidad_aerea.png', array('alt' => 'Publicidad aerea')), array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'pub_aerea')); ?></td>
+		<td><?php echo $this->Html->link('', array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'dis_corp pr_imgs')); ?></td>
+		<td><?php echo $this->Html->link('', array('controller' => 'productos', 'action' => 'show'), array('escape' => false, 'class' => 'pub_aerea pr_imgs')); ?></td>
 		<td></td>
 	</tr>
 </table>

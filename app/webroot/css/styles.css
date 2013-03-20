@@ -41,7 +41,7 @@ h1{
 }
 
 #banner_top{
-	background: url("../img/banner-sup.png") 0 0 no-repeat;
+	/*background: url("../img/banner-sup.png") 0 0 no-repeat;*/
 	width: 980px;
 	height: 141px;
 }
@@ -56,7 +56,7 @@ h1{
 	width: 978px;
 	height: 63px;	
 	border: 1px solid #838383;
-	background: #838383;
+	background: #ABAAAF;
 }
 
 .first_tab:hover{
@@ -322,4 +322,77 @@ h1{
 .product_table td{
 	margin: 0 0 0px 17px;
 	display: inline-block;
-} 
+}
+
+/**** PRODUCT ****/
+
+.pr_imgs{
+	width: 290px;
+	height: 219px;
+	display: inline-block;
+}
+
+.lito_pap{
+	background: url("../img/litografia_papeleria.png");
+}
+
+.lito_pap:hover{
+	background: url("../img/litografia_papeleriah.png");
+}
+
+.tarj_social{
+	background: url("../img/tarjeteria_social.png");
+}
+
+.tarj_social:hover{
+	background: url("../img/tarjeteria_socialh.png");
+}
+
+.imp_digi{
+	background: url("../img/impresion_digital.png");
+}
+
+.imp_digi:hover{
+	background: url("../img/impresion_digitalh.png");
+}
+
+.sena{
+	background: url("../img/senalizacion.png");
+}
+
+.sena:hover{
+	background: url("../img/senalizacionh.png");
+}
+
+.pop{
+	background: url("../img/pop.png");
+}
+
+.pop:hover{
+	background: url("../img/popT.png");
+}
+
+.dis_web{
+	background: url("../img/diseno_web.png");
+}
+
+.dis_web:hover{
+	background: url("../img/diseno_webh.png");
+}
+
+.dis_corp{
+	background: url("../img/diseno_corporativa.png");
+}
+
+.dis_corp:hover{
+	background: url("../img/diseno_corporativah.png");
+}
+
+.pub_aerea{
+	background: url("../img/publicidad_aerea.png");
+}
+
+.pub_aerea:hover{
+	background: url("../img/publicidad_aereaT.png");
+}
+ 
