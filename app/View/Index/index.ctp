@@ -7,7 +7,7 @@
 <!-- end css styles !-->
 
 <!-- scripts JS !-->
-<?php //echo $this->Html->script('jquery.jcarousel', array('inline' => false)); ?>
+<?php echo $this->Html->script('functions', array('inline' => false)); ?>
 <!-- end scripts JS !-->
 
 <?php $this->start('slider'); ?>

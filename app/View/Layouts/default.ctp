@@ -31,12 +31,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->Html->meta('icon');
 		echo $this->fetch('meta');
 
-		echo $this->Html->css(array('default', 'reset'));
-		echo $this->Html->css(array('default', 'styles'));		
+		echo $this->Html->css(array('reset', 'styles'));				
 		echo $this->fetch('css');
 
-		echo $this->Html->script('http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js');
-		echo $this->Html->script('functions');
+		echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js');		
 		echo $this->fetch('script');
 	?>
 </head>
@@ -53,6 +51,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				<?php echo $this->fetch('content'); ?>
 			</div>			
 		</div>
-	</div>	
+	</div>
+	<?php echo $this->fetch('scriptBottom'); ?>	
 </body>
 </html>
