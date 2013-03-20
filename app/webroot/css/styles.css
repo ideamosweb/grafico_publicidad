@@ -1,0 +1,325 @@
+body{
+	font-family: Arial;
+	font-size: 14px;
+	color: #4A4B46;
+	background: url("../img/background_body.png") center bottom repeat-x #FFF;	
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	padding: 10px 0;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.white{
+	color: #FFF;
+}
+
+.align_center{
+	text-align: center;
+}
+
+#wrapper{
+	width: 1020px;
+	margin: 0 auto 80px auto;
+	background: url("../img/fondo_sombra.png") center top repeat-y;
+}
+
+#wrapper_content{
+	width: 980px;
+	margin: 0 auto;
+	background: #737277;
+}
+
+#header{
+	width: 980px;
+	height: 206px;
+}
+
+#banner_top{
+	background: url("../img/banner-sup.png") 0 0 no-repeat;
+	width: 980px;
+	height: 141px;
+}
+
+.logo{
+	margin: 0 0 0 10px;
+}
+
+/**** MENU ****/
+
+#main_menu{
+	width: 978px;
+	height: 63px;	
+	border: 1px solid #838383;
+	background: #838383;
+}
+
+.first_tab:hover{
+	background: url("../img/boton1.png") 0 0 no-repeat;
+}
+
+#tabs{
+	width: 882px;
+	margin: 13px auto 0 auto;	
+}
+
+#tabs li{
+	display: inline-block;	
+	margin: 0 23px 0 0;	
+}
+
+#tabs li a{
+	display: inline-block;
+	width: 200px;
+	height: 35px;
+	padding: 16px 0 0;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;	
+}
+
+.first_tab{
+	background: url("../img/boton1.png") 0 0 no-repeat;
+}
+
+.first_tab:hover{
+	background: url("../img/boton1h.png") 0 0 no-repeat;
+}
+
+.second_tab{
+	background: url("../img/boton2.png") 0 0 no-repeat;
+}
+
+.second_tab:hover{
+	background: url("../img/boton2h.png") 0 0 no-repeat;
+}
+
+.third_tab{
+	background: url("../img/boton3.png") 0 0 no-repeat;
+}
+
+.third_tab:hover{
+	background: url("../img/boton3h.png") 0 0 no-repeat;
+}
+
+.four_tab{
+	background: url("../img/boton4.png") 0 0 no-repeat;
+}
+
+.four_tab:hover{
+	background: url("../img/boton4h.png") 0 0 no-repeat;
+}
+
+.last_tab{
+	margin-right: 0px !important;
+}
+
+/**** SLIDER ****/
+
+#content_slide{
+	width: 980px;
+	height: 490px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide{
+	display: none;	
+	position: absolute;
+	width: 980px;
+	height: 490px;
+	left: 0;
+}
+
+.slide_img1{
+	background: url("../img/1.jpg");
+}
+
+.slide_img2{
+	background: url("../img/2.jpg");
+}
+
+.slide_img3{
+	background: url("../img/3.jpg");
+}
+
+.slide_img4{
+	background: url("../img/4.jpg");
+}
+
+.slide_img5{
+	background: url("../img/5.jpg");
+}
+
+.slide_img6{
+	background: url("../img/6.jpg");
+}
+
+.text_slide{
+	background: rgba(248, 237, 212, 0.89);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 980px;
+	height: 67px;
+	display: none;
+	overflow: hidden;
+}
+
+.content_text_slide{
+	overflow: hidden;
+	width: 750px;
+	float: left;
+}
+
+.content_text_slide h1{
+	font-size: 27px;
+	font-weight: bold;
+	float: left;
+	padding: 20px;
+	width: 214px;
+	margin: 0px 0 0;
+}
+
+.content_text_slide p{
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+	padding: 5px;
+	width: 455px;
+	margin: 10px 0 0;
+	line-height: 20px;
+}
+
+.content_control{
+	float: right;
+	width: 200px;
+	padding: 23px 0;
+}
+
+.content_control ul{
+	margin: 0;
+	padding: 0;
+}
+
+.content_control ul li{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin: 0 10px 0 0;
+}
+
+.content_control ul li a{
+	display: inline-block;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+/**** CONTENT ****/
+
+#content{
+	background: #838383;
+	width: 970px;
+	padding: 0 10px 0 0;
+	/*height: 647px;*/
+}
+
+#wrapper_column{
+	overflow: hidden;
+	background: #838383;
+	padding: 10px 0 30px 10px;
+}
+
+#column1{
+	width: 572px;
+	float: left;	
+}
+
+#column2{
+	width: 357px;
+	float: right;
+}
+
+.box_quienes{
+	width: 572px;
+	background: #FFF;
+}
+
+.box_quienes h1{
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	background: #5B5B5B;
+	padding: 10px;
+	margin: 0 0 20px 0;
+}
+
+.box_quienes p{	
+	margin: 0px 0 0;
+	padding: 0px 20px 20px 20px;
+	line-height: 18px;
+	text-align: justify;	
+}
+
+.logo_footer{
+	margin: 42px 0 0 20px;
+}
+
+.social_networks{
+	width: 306px;
+	height: 257px;
+	background: url("../img/fondo_social.png") 0 0 no-repeat;
+	padding: 20px 20px 0;
+	margin: 0 0 0 11px;
+}
+
+.social_networks h2{	
+	font-size: 20px;
+	font-weight: bold;
+	color: #B7B7B7;
+	padding: 5px 5px 5px 30px;
+	background: url("../img/flecha-redsocial.png") 0 3px no-repeat;
+}
+
+.link_network{
+	overflow: hidden;
+	margin: 15px 0 0;
+}
+
+.link_network img{	
+	vertical-align: middle;
+}
+
+.link_network a{
+	color:  #4A4B46;
+	font-size: 16px;
+	font-weight: bold;	
+}
+
+.content_monster{
+	width:275px;
+	margin: 0 0 0 80px;
+}
+
+.product_table{
+	margin: 40px 20px;
+}
+
+.product_table tr{
+	margin: 0 0 20px 0;
+	display: block;
+}
+
+.product_table td{
+	margin: 0 0 0px 17px;
+	display: inline-block;
+} 
