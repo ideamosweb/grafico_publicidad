@@ -6,8 +6,6 @@
 .project
 .metadata
 bin/
-tmp/
-*.tmp
 *.bak
 *.swp
 *~.nib
@@ -58,7 +56,6 @@ local.properties
 *.tlb
 *.tli
 *.tlh
-*.tmp
 *.vspscc
 .builds
 *.dotCover
