@@ -143,7 +143,7 @@
 			</p>
 		</div>
 		<div class="logo_footer">
-			<img src="img/logo_footer.png" />
+			<?php echo $this->Html->image('logo_footer.png', array('alt' => 'Logo')) ?>			
 		</div>
 	</div>
 	<div id="column2">
@@ -155,7 +155,7 @@
 			</div>
 		</div>
 		<div class="content_monster">
-			<img src="img/Lambonny2.gif" />
+			<?php echo $this->Html->image('Lambonny2.gif', array('alt' => 'Lambonny')) ?>
 		</div>
 	</div>
 </div>
