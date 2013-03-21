@@ -5,6 +5,7 @@
 <!-- end css styles !-->
 
 <!-- scripts JS !-->
+<div class="content_contact">
 <?php 
 echo $this->Form->create(false, array('action' => 'process'));
 echo $this->Form->input('name', array('label' => 'Nombre', 'type' => 'text', 'div' => 'div_form'));
@@ -13,3 +14,4 @@ echo $this->Form->input('tel', array('label' => 'Telefono', 'type' => 'text', 'd
 echo $this->Form->input('msg', array('label' => 'Comentarios', 'type' => 'textarea', 'div' => 'div_form'));
 echo $this->Form->end('Enviar');
 ?>
+</div>

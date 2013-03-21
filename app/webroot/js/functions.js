@@ -1,4 +1,6 @@
+var i = 1;
 $(document).ready(function(){
+	var i = 1;
 	nextSlider();
 	var interval_slide = setInterval(nextSlider, 5000);
 
@@ -10,9 +12,11 @@ $(document).ready(function(){
 
 });
 
-var i = 1;
-
-function nextSlider(id_sd) {		
+function nextSlider(id_sd) {
+	/*This fix repeating first slide in some Firefox version*/
+	if(i ==0)
+		i = 2;
+			
 	var count = (id_sd != undefined) ? id_sd : i; 	
  	var all_slides = $("article");
  	all_slides.css('left', 0); 
@@ -26,7 +30,7 @@ function nextSlider(id_sd) {
 	img_control.attr('src', 'img/control-slideA.png');	
 	$('.text_slide').css('display', 'none');
  
-	if(slider.html() == undefined || slider.html() == null) {
+	if((slider.html() == undefined || slider.html() == null) && count > 1) {		
 		i = 1;				 
 		nextSlider();
 	}else{
