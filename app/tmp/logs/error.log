@@ -827,3 +827,36 @@ Request URL: /grafico_publicidad/css/default.css
 Stack Trace:
 #0 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-03-20 19:30:15 Error: [MissingTableException] Table contactos for model Contacto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'contactos',
+  'class' => 'Contacto',
+  'ds' => 'default',
+)
+Request URL: /grafico_publicidad/contactos
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\lib\Cake\Model\Model.php(3231): Model->setSource('contactos')
+#1 C:\wamp\www\grafico_publicidad\lib\Cake\Model\Model.php(1319): Model->getDataSource()
+#2 C:\wamp\www\grafico_publicidad\lib\Cake\View\Helper\FormHelper.php(198): Model->schema()
+#3 C:\wamp\www\grafico_publicidad\lib\Cake\View\Helper\FormHelper.php(448): FormHelper->_introspectModel('Contacto', 'fields')
+#4 C:\wamp\www\grafico_publicidad\app\View\Contactos\index.ctp(8): FormHelper->create()
+#5 C:\wamp\www\grafico_publicidad\lib\Cake\View\View.php(948): include('C:\wamp\www\gra...')
+#6 C:\wamp\www\grafico_publicidad\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\gra...', Array)
+#7 C:\wamp\www\grafico_publicidad\lib\Cake\View\View.php(471): View->_render('C:\wamp\www\gra...')
+#8 C:\wamp\www\grafico_publicidad\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#9 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#10 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContactosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-03-20 22:23:52 Error: [MissingViewException] View file "C:\wamp\www\grafico_publicidad\app\View\Contactos\process.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\grafico_publicidad\\app\\View\\Contactos\\process.ctp',
+)
+Request URL: /grafico_publicidad/contactos/process
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\grafico_publicidad\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContactosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

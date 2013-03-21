@@ -12,8 +12,7 @@ class ProductosController extends AppController {
             throw new NotFoundException(__('Pagina invalida'));
         }
 
-        if ($this->request->is('get')) {
-        	echo $id;
+        if ($this->request->is('get')) {        	
         }
 	}
 }

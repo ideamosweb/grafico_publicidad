@@ -424,4 +424,20 @@ h1{
     top:  0; 
     left: 0 
 }
- 
+
+/**** CLIENTES ****/
+
+.content_clientes{
+	background: #FFF;
+	width: 900px;
+	padding: 40px;
+}
+
+/**** CONTACT ****/
+
+.div_form label{
+	width: 70px;
+	text-align: left;
+	color: #FFF;
+	display: block;
+} 
