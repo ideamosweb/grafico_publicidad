@@ -440,4 +440,9 @@ h1{
 	text-align: left;
 	color: #FFF;
 	display: block;
+	padding: 5px 0;
+}
+
+.content_contact{
+	padding: 10px 20px;
 } 
