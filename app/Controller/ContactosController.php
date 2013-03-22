@@ -10,6 +10,9 @@ class ContactosController extends AppController {
 		$this->Contacto->set($this->data);
 		if($this->Contacto->validates()){
 		    // do stuff with valid data
+		    print_r($this->data);
 		}
+		return $this->data;
+		$this->render(false);
 	}		
 }
