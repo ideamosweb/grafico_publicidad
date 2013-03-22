@@ -543,7 +543,7 @@ form .row {
 	padding:5px 0;
 }
 
-input[type=text],input[type=password],textarea{
+input[type=text],input[type=password],input[type=email],textarea{
 	color:#666;
 	padding:8px;
 	border:1px solid #e0e0e0;
