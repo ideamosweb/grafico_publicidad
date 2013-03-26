@@ -1,5 +1,5 @@
 <div id="banner_top">	
-	<object width="980" height="141" data="<?php echo IMAGES_URL ?>animacion_banner.swf"></object>		
+	<object width="980" height="141" data="<?php echo FULL_BASE_URL.'/grafico_publicidad/'.IMAGES_URL ?>animacion_banner.swf"></object>		
 </div>
 <div id="main_menu">
 	<ul id="tabs">
