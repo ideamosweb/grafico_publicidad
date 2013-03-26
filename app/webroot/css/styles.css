@@ -457,7 +457,7 @@ h1{
 .content_contact p{
 	color: #FFF;
 	font-size: 20px;	
-	line-height: 23px;
+	line-height: 30px;
 }
 
 .content_contact a{
@@ -477,6 +477,11 @@ input[type=text],input[type=password],textarea{
 .contact-form {
 	padding:20px 20px 40px 20px;
 	font-size:13px;
+}
+
+.contact-form form{
+	width: 620px;
+	margin: 0 auto;
 }
 
 .contact-form h2 {
