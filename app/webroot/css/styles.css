@@ -35,6 +35,11 @@ h1{
 	text-align: center;
 }
 
+.center_block{
+	margin: 0 auto;
+	display: block;
+}
+
 #wrapper{
 	width: 1020px;
 	margin: 0 auto 80px auto;
@@ -71,10 +76,6 @@ h1{
 	background: #ABAAAF;
 }
 
-.first_tab:hover{
-	background: url("../img/boton1.png") 0 0 no-repeat;
-}
-
 #tabs{
 	width: 882px;
 	margin: 13px auto 0 auto;	
@@ -97,35 +98,35 @@ h1{
 }
 
 .first_tab{
-	background: url("../img/boton1.png") 0 0 no-repeat;
+	background: url("../img/inicio.png") 0 0 no-repeat;
 }
 
 .first_tab:hover{
-	background: url("../img/boton1h.png") 0 0 no-repeat;
+	background: url("../img/inicio.png") 0 -51px no-repeat;
 }
 
 .second_tab{
-	background: url("../img/boton2.png") 0 0 no-repeat;
+	background: url("../img/productos.png") 0 0 no-repeat;
 }
 
 .second_tab:hover{
-	background: url("../img/boton2h.png") 0 0 no-repeat;
+	background: url("../img/productos.png") 0 -51px no-repeat;
 }
 
 .third_tab{
-	background: url("../img/boton3.png") 0 0 no-repeat;
+	background: url("../img/clientes.png") 0 0 no-repeat;
 }
 
 .third_tab:hover{
-	background: url("../img/boton3h.png") 0 0 no-repeat;
+	background: url("../img/clientes.png") 0 -51px no-repeat;
 }
 
 .four_tab{
-	background: url("../img/boton4.png") 0 0 no-repeat;
+	background: url("../img/contacto.png") 0 0 no-repeat;
 }
 
 .four_tab:hover{
-	background: url("../img/boton4h.png") 0 0 no-repeat;
+	background: url("../img/contacto.png") 0 -51px no-repeat;
 }
 
 .last_tab{
@@ -286,6 +287,10 @@ h1{
 	margin: 42px 0 0 20px;
 }
 
+.logo_footer img{
+	margin: 48px 0 0;
+}
+
 .social_networks{
 	width: 306px;
 	height: 257px;
@@ -326,14 +331,16 @@ h1{
 	margin: 40px 20px;
 }
 
-.product_table tr{
-	margin: 0 0 20px 0;
+.product_table tr{	
 	display: block;
 }
 
-.product_table td{
-	margin: 0 0 0px 17px;
+.product_table td{	
 	display: inline-block;
+}
+
+.product_table a{
+	margin: 0 8px 20px;
 }
 
 /**** PRODUCT ****/
@@ -345,67 +352,67 @@ h1{
 }
 
 .lito_pap{
-	background: url("../img/litografia_papeleria.png");
+	background: url("../img/litografia_papeleriaF.png") 0 0;
 }
 
 .lito_pap:hover{
-	background: url("../img/litografia_papeleriah.png");
+	background: url("../img/litografia_papeleriaF.png") 0 219px;
 }
 
 .tarj_social{
-	background: url("../img/tarjeteria_social.png");
+	background: url("../img/tarjeteria_socialF.png") 0 0;
 }
 
 .tarj_social:hover{
-	background: url("../img/tarjeteria_socialh.png");
+	background: url("../img/tarjeteria_socialF.png") 0 219px;
 }
 
 .imp_digi{
-	background: url("../img/impresion_digital.png");
+	background: url("../img/impresion_digitalF.png") 0 0;
 }
 
 .imp_digi:hover{
-	background: url("../img/impresion_digitalh.png");
+	background: url("../img/impresion_digitalF.png") 0 219px;
 }
 
 .sena{
-	background: url("../img/senalizacion.png");
+	background: url("../img/senalizacionF.png") 0 0;
 }
 
 .sena:hover{
-	background: url("../img/senalizacionh.png");
+	background: url("../img/senalizacionF.png") 0 219px;
 }
 
 .pop{
-	background: url("../img/pop.png");
+	background: url("../img/popF.png") 0 0;
 }
 
 .pop:hover{
-	background: url("../img/popT.png");
+	background: url("../img/popF.png") 0 219px;
 }
 
 .dis_web{
-	background: url("../img/diseno_web.png");
+	background: url("../img/diseno_webF.png") 0 0;
 }
 
 .dis_web:hover{
-	background: url("../img/diseno_webh.png");
+	background: url("../img/diseno_webF.png") 0 219px;
 }
 
 .dis_corp{
-	background: url("../img/diseno_corporativa.png");
+	background: url("../img/diseno_corporativaF.png") 0 0;
 }
 
 .dis_corp:hover{
-	background: url("../img/diseno_corporativah.png");
+	background: url("../img/diseno_corporativaF.png") 0 219px;
 }
 
 .pub_aerea{
-	background: url("../img/publicidad_aerea.png");
+	background: url("../img/publicidad_aereaF.png") 0 0;
 }
 
 .pub_aerea:hover{
-	background: url("../img/publicidad_aereaT.png");
+	background: url("../img/publicidad_aereaF.png") 0 219px;
 }
 
 /**** CICLE PLUGIN ****/
@@ -444,7 +451,17 @@ h1{
 }
 
 .content_contact{
-	padding: 10px 20px;
+	padding: 20px;
+}
+
+.content_contact p{
+	color: #FFF;
+	font-size: 20px;	
+	line-height: 23px;
+}
+
+.content_contact a{
+	color: #FFF;
 }
 
 input[type=text],input[type=password],textarea{
@@ -458,7 +475,7 @@ input[type=text],input[type=password],textarea{
 }
 
 .contact-form {
-	padding:40px 20px;
+	padding:20px 20px 40px 20px;
 	font-size:13px;
 }
 

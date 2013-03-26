@@ -5,6 +5,20 @@
 <!-- end css styles !-->
 
 <!-- scripts JS !-->
+<div class='content_contact'>
+	<?php echo $this->Html->image('logo_contacto.png', array('alt' => 'Logo', 'class' => 'center_block')) ?>
+	<br />
+	<br />
+	<br />
+	<p>Calle 41 No. 43 - 70 Local 8  Tel: 379 5243</p>
+	<p>Cel: 316 4619714  E-mail: info@graficopublicidad.com.co</p>
+	<p>www.graficopublicidad.com.co</p>
+	<p>Barranquilla - Colombia</p>	
+	<div class="link_network">				
+		<?php echo $this->Html->image('facebook_icon2.png', array('alt' => 'Siguenos en facebook')) ?>
+		<a href="">facebook/graficopublicidad</a>
+	</div>	
+</div>	
 <div class="contact-form">
 <?php 
 echo $this->Form->create('Contacto', array('action' => 'process'));
@@ -25,4 +39,5 @@ echo $this->Form->input('msg', array('label' => 'Comentarios (*)', 'type' => 'te
 echo $this->Form->input('Enviar', array('label' => false, 'type' => 'submit', 'div' => 'row field_submit', 'class' => 'contact-submit submit'));
 echo $this->Form->end();
 ?>
+<div class="clear"></div>
 </div>

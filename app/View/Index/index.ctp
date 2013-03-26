@@ -133,13 +133,21 @@
 		<div class="box_quienes">
 			<h1>QUIENES SOMOS</h1>
 			<p>
-				Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+				GRAFICO S.A.S es una empresa que brinda soluciones a sus necesidades de comunicación.
+Contamos con un equipo de trabajo dinámico y profesional en el arte del diseño y la publicidad.
 			</p>
 			<p>	
-				Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+				Generamos soluciones integrales e innovadoras para sus proyectos por medio de la impresión
+digital, litográfica, materiales duros y blandos.
 			</p>
 			<p>
-				Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
+				Siempre buscamos anticiparnos a las necesidades
+de nuestros clientes por medio de altos estándares de calidad y servicios, comprometidos con las
+nuevas tecnologías y con modernos equipos para responder con rapidez y solvencia.
+			</p>
+			<p>
+				Es así como
+GRAFICO S.A.S se sitúa como líder en el mercado publicitario y en la solución para el negocio.
 			</p>
 		</div>
 		<div class="logo_footer">
@@ -149,8 +157,8 @@
 	<div id="column2">
 		<div class="social_networks">
 			<h2>Siguenos</h2>
-			<div class="link_network">
-				<img src="img/facebook_icon.png" />
+			<div class="link_network">				
+				<?php echo $this->Html->image('facebook_icon2.png', array('alt' => 'Siguenos en facebook')) ?>
 				<a href="">facebook/graficopublicidad</a>
 			</div>
 		</div>
