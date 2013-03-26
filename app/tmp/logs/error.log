@@ -994,3 +994,63 @@ Stack Trace:
 #1 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContactosController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-03-26 16:33:38 Error: [NotFoundException] Pagina invalida
+Request URL: /grafico_publicidad/productos/show
+Stack Trace:
+#0 [internal function]: ProductosController->show()
+#1 C:\wamp\www\grafico_publicidad\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(ProductosController), Array)
+#2 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-03-26 16:33:38 Error: [MissingActionException] Action ProductosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductosController',
+  'action' => 'img',
+)
+Request URL: /grafico_publicidad/productos/img/animacion_banner.swf
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-26 16:39:30 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\grafico_publicidad\app\Controller\ProductosController.php, line 18]
+2013-03-26 16:39:30 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /grafico_publicidad/productos
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\gra...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\gra...', 18, Array)
+#2 C:\wamp\www\grafico_publicidad\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\gra...', 18, Array)
+#3 C:\wamp\www\grafico_publicidad\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-26 16:40:15 Error: [MissingViewException] View file "C:\wamp\www\grafico_publicidad\app\View\Productos\Array.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\grafico_publicidad\\app\\View\\Productos\\Array.ctp',
+)
+Request URL: /grafico_publicidad/productos/show/1
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\lib\Cake\View\View.php(468): View->_getViewFileName(Array)
+#1 C:\wamp\www\grafico_publicidad\lib\Cake\Controller\Controller.php(948): View->render(Array, NULL)
+#2 C:\wamp\www\grafico_publicidad\app\Controller\ProductosController.php(18): Controller->render(Array)
+#3 [internal function]: ProductosController->show('1')
+#4 C:\wamp\www\grafico_publicidad\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(ProductosController), Array)
+#5 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-03-26 16:40:15 Error: [MissingViewException] View file "C:\wamp\www\grafico_publicidad\app\View\Productos\Array.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\grafico_publicidad\\app\\View\\Productos\\Array.ctp',
+)
+Request URL: /grafico_publicidad/productos/show/img/animacion_banner.swf
+Stack Trace:
+#0 C:\wamp\www\grafico_publicidad\lib\Cake\View\View.php(468): View->_getViewFileName(Array)
+#1 C:\wamp\www\grafico_publicidad\lib\Cake\Controller\Controller.php(948): View->render(Array, NULL)
+#2 C:\wamp\www\grafico_publicidad\app\Controller\ProductosController.php(18): Controller->render(Array)
+#3 [internal function]: ProductosController->show('img', 'animacion_banne...')
+#4 C:\wamp\www\grafico_publicidad\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(ProductosController), Array)
+#5 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\grafico_publicidad\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\grafico_publicidad\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

@@ -14,5 +14,9 @@ class ProductosController extends AppController {
 
         if ($this->request->is('get')) {        	
         }
+
+        /*$this->render(array('autoRender' => false));
+
+        $this->redirect(array('controller' => 'productos', 'action' => 'show', $id));*/
 	}
 }
